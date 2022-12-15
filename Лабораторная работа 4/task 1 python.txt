@@ -1,0 +1,6 @@
+students = [('misha', 'man', 'great'), ('andrew', 'man', 'bad'),
+            ('kate', 'woman', 'good'), ('ann', 'woman', 'bad')]
+def bestie(x):
+    name, sex, mark = x
+    return mark in ['good', 'great']
+print("Result:", [x[0] for x in students if bestie(x) and x[1] == 'man'])

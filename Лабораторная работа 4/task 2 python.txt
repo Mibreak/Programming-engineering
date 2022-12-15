@@ -1,0 +1,2 @@
+import math
+print((math.pow((math.sin(1)), 2) + (math.pow((math.cos(2)),2))) * 2)
